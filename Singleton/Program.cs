@@ -26,5 +26,7 @@ namespace Singleton
             LazySingleton fromStudent = LazySingleton.GetInstance;
             fromStudent.PrintDetails("From Student");
         }
+
+
     }
 }
